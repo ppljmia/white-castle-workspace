@@ -4,7 +4,21 @@ Feito pelo [Ratos de IA](https://ratosdeia.com.br) pra alunos do curso **Claude 
 
 ---
 
-## Como usar
+## Como instalar
+
+### Opção 1 — Via prompt (mais fácil)
+
+Com o Claude Code aberto em qualquer pasta, copie e cole esse prompt:
+
+```
+Instala pra mim o repositório https://github.com/dobralabs/ccos-ratos.git na pasta atual, abre ela e roda /setup
+```
+
+O Claude faz tudo: clona o repositório, entra na pasta e inicia a configuração.
+
+---
+
+### Opção 2 — Via terminal
 
 **1. Clone o repositório**
 ```bash
@@ -26,6 +40,8 @@ claude
 ```
 /setup
 ```
+
+---
 
 O Claude vai te fazer algumas perguntas e configurar o sistema pro seu negócio. Em 5 minutos você tem tudo pronto.
 
