@@ -1,14 +1,63 @@
-# Claude Code OS — Kit Ratos de IA
+# White Castle Solutions — Claude Code OS
 
-Este repositório é o kit de boas-vindas do curso Claude Code OS.
+## O que é esse workspace
 
-Se você acabou de clonar esse repositório:
-1. Rode `/setup` pra configurar o sistema pro seu negócio (uns 5 minutos)
-2. Depois rode `/mapear` pra criar skills personalizadas pro que você faz no dia a dia
+Workspace central da White Castle Solutions. Organizado por área operacional — atendimento, clientes, comercial, marketing e operações da empresa de contabilidade e impostos nos EUA.
+
+**Estrutura de pastas:**
+- `_contexto/` — memória do sistema (não apagar)
+- `marca/` — guia de identidade visual
+- `clientes/` — documentação e histórico por cliente
+- `atendimento/` — respostas prontas, scripts WhatsApp, FAQ
+- `comercial/` — propostas, pipeline, materiais de venda
+- `marketing/` — conteúdo, carrosséis, posts, campanhas
+- `operacoes/` — processos internos, SOPs, fluxos de trabalho
+- `dados/` — arquivos para análise (CSV, PDF, planilhas)
+- `templates/skills/` — templates de skills prontos pra personalizar com /mapear
+- `templates/ferramentas/catalogo.md` — APIs e ferramentas disponíveis pra usar em skills
+- `tarefas.md` — lista de tarefas corrente
+
+## Sobre o negócio
+
+White Castle Solutions (também White Castle Services Corp) é uma empresa de contabilidade e preparação de impostos nos EUA, sediada na Flórida.
+Atende principalmente a comunidade latina — imigrantes com ITIN, sem SSN e pequenos empresários.
+Equipe: Jorge Pessôa (gestão, atendimento e estratégia), Faheem (preparador terceirizado), João Márcio (sócio/comercial), Crissia (atendente e organização de documentos).
+
+## O que mais fazemos aqui
+
+- Preparação e transmissão de impostos (1040, 1120, 1120S, 1065)
+- Atendimento e suporte a clientes via WhatsApp
+- Respostas prontas pra dúvidas fiscais comuns (refund, balance due, créditos, IRS)
+- Resolução de problemas com o IRS (parcelamentos, cartas, erros)
+- Gestão de pipeline e status dos processos de clientes
+- Revisão de documentos (W-2, 1099, extratos)
+- Coordenação com Faheem (preparador) e Crissia (documentação via GHL + Google Drive)
+
+## Equipe
+
+- **Jorge** — gestão, atendimento, estratégia, decisões
+- **Faheem** — preparação dos impostos (terceirizado)
+- **João Márcio** — sócio, captação de clientes, área comercial
+- **Crissia** — atendimento, organização de documentação (formulários GHL → Google Drive → Faheem)
+
+## Tom de voz
+
+Direto, rápido e objetivo. Estilo WhatsApp — curto, claro, prático.
+Didático quando necessário: explica como para leigo, sem complicar.
+Autoridade de contador experiente nos EUA, especialmente com comunidade latina.
+
+**Evitar:** textos longos, linguagem robótica, enrolação, óbvio, corporativo, concordar sem critério, bullet points desnecessários, explicações que não vão direto ao ponto.
+
+## Ferramentas conectadas
+
+- Go High Level (CRM principal + WhatsApp embarcado)
+- Stripe (pagamentos, configurado dentro do GHL)
+- Drake (sistema de tax preparation)
+- Google Drive (troca de documentos com Faheem)
+- IRS Online Account / sistemas do IRS
+- Sunbiz (Flórida)
 
 ---
-
-<!-- Este arquivo será atualizado pelo /setup com o contexto do seu negócio. -->
 
 ## Contexto do negócio
 
