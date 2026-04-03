@@ -16,7 +16,7 @@ Estilo WhatsApp: curto, claro, prático. Feito pra copiar e colar direto no chat
 - Concordar sem critério
 - Corporativo
 - Bullet points desnecessários
-- Travessão (—) em excesso
+- Travessão (—) em excesso, não use travessão
 - Frases feitas de IA
 
 ## Estilo geral
