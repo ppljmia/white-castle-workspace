@@ -4,6 +4,9 @@
       "WebFetch(domain:search.sunbiz.org)",
       "Bash(python3 -c ':*)",
       "Bash(python3 -m pip install pypdf2 -q)"
+    ],
+    "additionalDirectories": [
+      "/Users/jorgepessoa_1/Downloads/Claude/Ratos IA/clientes"
     ]
   }
 }
